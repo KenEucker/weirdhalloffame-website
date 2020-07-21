@@ -1,0 +1,27 @@
+{
+  "name": "weirdhalloffame-website",
+  "version": "1.0.0",
+  "description": "A website for weirdhalloffame.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "node app.js --dev=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keneucker/weirdhalloffame-website.git"
+  },
+  "author": "Ken Eucker <keneucker.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keneucker/weirdhalloffame-website/issues"
+  },
+  "homepage": "https://github.com/keneucker/weirdhalloffame-website#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
